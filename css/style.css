@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('../images/brooklyn-bridge.png') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(94, 6, 6);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news {
+    background-color: gainsboro;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(94, 6, 6);
+}
+
+article:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: brown;
+}
+
+article h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.new::before {
+    content: "NEW!";
+    color: crimson;
+}
+
+.article-meta {
+    color: dimgray;
+    margin-bottom: 5px;
+}
+
+.topic {
+    font-style: italic;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: rgb(34, 32, 32);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(94, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+}
